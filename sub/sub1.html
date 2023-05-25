@@ -192,7 +192,7 @@
         allowfullscreen></iframe>
     </div><!--youtube_E-->
   
-  <button class="up_btn">
+  <button class="F_btn">
     <img src="../images/footer/logo_white_cargo.png" alt="">
   </button>
   <div id="footer"><!--footer_S-->
@@ -235,16 +235,16 @@
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
     <!--맨위로-->
     <script>
-  $('.up_btn').hide();
+  $('.F_btn').hide();
   $(window).scroll(function(){
       var height = $(window).scrollTop();
       if(height > 1000){
-          $('.up_btn').fadeIn()
+          $('.F_btn').fadeIn()
       }else{
-          $('.up_btn').fadeOut()
+          $('.F_btn').fadeOut()
       }
   });
-  $('.up_btn').click(function(){
+  $('.F_btn').click(function(){
       $('body,html').animate({
           scrollTop: 0
       },500);
