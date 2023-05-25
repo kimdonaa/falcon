@@ -1171,7 +1171,13 @@ body {
 .passenger dd .increase:after {
     content: '';
     display: block;
-    /* width: : */
+	width: 3px;
+    height: 15px;
+    background-color: #B83030;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -7.5px 0 0 -1.5px;
 }
 
 em,
