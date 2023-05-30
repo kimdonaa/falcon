@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100.655" height="97.646" viewBox="0 0 100.655 97.646">
+  <g id="bnudle_set_icon" transform="translate(-1504.289 -2027.427)">
+    <g id="bnudle_set_icon-2" data-name="bnudle_set_icon" transform="translate(1517.702 2028.927)">
+      <rect id="사각형_429" data-name="사각형 429" width="32.199" height="23.626" rx="2.838" transform="translate(18.32)" fill="none" stroke="#161615" stroke-miterlimit="10" stroke-width="3"/>
+      <ellipse id="타원_30" data-name="타원 30" cx="4.164" cy="4.164" rx="4.164" ry="4.164" transform="translate(11.381 87.819)" fill="#161615"/>
+      <ellipse id="타원_31" data-name="타원 31" cx="4.164" cy="4.164" rx="4.164" ry="4.164" transform="translate(49.09 87.819)" fill="#161615"/>
+      <rect id="사각형_430" data-name="사각형 430" width="68.839" height="74.39" rx="3.208" transform="translate(0 14.584)" fill="#b83030" stroke="#161615" stroke-miterlimit="10" stroke-width="3"/>
+    </g>
+    <g id="그룹_97" data-name="그룹 97" transform="translate(1505.844 2053)">
+      <path id="패스_246" data-name="패스 246" d="M215.574,128.644l-31.107,8.3a1.177,1.177,0,0,0-.833,1.44l8.3,31.105a1.176,1.176,0,0,0,1.439.834l19.98-5.33,8.992-15.534-5.33-19.98A1.175,1.175,0,0,0,215.574,128.644Z" transform="translate(-183.594 -128.603)" fill="#7bb1e3" stroke="#161615" stroke-miterlimit="10" stroke-width="3"/>
+      <text id="P" transform="translate(16.008 33.364) rotate(-14.936)" fill="#161615" font-size="29" font-family="MyriadPro-Regular, Myriad Pro"><tspan x="0" y="0">P</tspan></text>
+    </g>
+    <g id="그룹_101" data-name="그룹 101" transform="matrix(0.951, 0.309, -0.309, 0.951, 1560.212, 2048.755)">
+      <path id="패스_249" data-name="패스 249" d="M32.627.877,2.337,0C1.726-.017,1.211.64,1.187,1.467L0,42.473C-.023,43.3.452,43.987,1.064,44l19.456.562,12.409-15.82.762-26.339C33.714,1.58,33.238.894,32.627.877Z" transform="translate(5.013 0.212)" fill="#6eb237" stroke="#161615" stroke-miterlimit="10" stroke-width="3"/>
+      <line id="선_48" data-name="선 48" x2="44.99" y2="1.302" fill="none" stroke="#161615" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+      <g id="그룹_100" data-name="그룹 100" transform="translate(11.323 14.559)">
+        <path id="패스_250" data-name="패스 250" d="M0,0,3.382,16.3a.277.277,0,0,0,.548.031L8.861.622a.089.089,0,0,1,.175.015L11.61,16.389a.278.278,0,0,0,.552.042L16.924.49" transform="translate(2.301 0)" fill="none" stroke="#161615" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+        <line id="선_49" data-name="선 49" x2="21.027" y2="0.608" transform="translate(0 8.569)" fill="none" stroke="#161615" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+      </g>
+    </g>
+    <g id="그룹_96" data-name="그룹 96" transform="translate(1529.042 2087.893) rotate(-20)">
+      <path id="패스_245" data-name="패스 245" d="M3.436,7.287,13.289.322a1.758,1.758,0,0,1,2.476.459L22.1,10.268a1.757,1.757,0,0,1,.274,1.252l-2.242,14.1a1.759,1.759,0,0,1-.877,1.257l-4.112,2.3a1.757,1.757,0,0,1-1.135.2L1.482,27.39a1.758,1.758,0,0,1-1.46-2.012L2.714,8.447A1.759,1.759,0,0,1,3.436,7.287Z" fill="#f1e260" stroke="#161615" stroke-miterlimit="10" stroke-width="3"/>
+      <line id="선_47" data-name="선 47" x2="8.582" y2="12.27" transform="translate(7.073 11.602)" fill="#b97027" stroke="#161615" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+      <ellipse id="타원_28" data-name="타원 28" cx="1.275" cy="1.275" rx="1.275" ry="1.275" transform="translate(5.797 18.588)" fill="#040405"/>
+      <ellipse id="타원_29" data-name="타원 29" cx="1.275" cy="1.275" rx="1.275" ry="1.275" transform="translate(14.379 14.025)" fill="#040405"/>
+    </g>
+  </g>
+</svg>

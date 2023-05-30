@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="58" height="56" viewBox="0 0 58 56">
+  <g id="_2.seats_icon" data-name="2.seats_icon" transform="translate(-547 -1479)">
+    <rect id="사각형_471" data-name="사각형 471" width="58" height="56" transform="translate(547 1479)" fill="none"/>
+    <path id="패스_236" data-name="패스 236" d="M404.35,35.886l8.658,32.219s.717,4.3,4.089,4.3h30.059a3.157,3.157,0,0,0,3.156-3.156h0V64.663a3.3,3.3,0,0,0-3.3-3.3h0l-23.069-.191L415.249,33.7a6.432,6.432,0,0,0-2.458-3.423,2.712,2.712,0,0,0-.34-.174c-1.011-.475-2.75-.333-5.022.6,0,0-3.39.9-3.251,4.144A4.74,4.74,0,0,0,404.35,35.886Z" transform="translate(148.756 1450.642)" fill="#fff" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="사각형_372" data-name="사각형 372" d="M1.3,0H20.6a2.217,2.217,0,0,1,2.217,2.217v0A2.217,2.217,0,0,1,20.6,4.435H1.3A1.3,1.3,0,0,1,0,3.137V1.3A1.3,1.3,0,0,1,1.3,0Z" transform="translate(564.593 1499.55)" fill="#fd908c" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+    <rect id="사각형_373" data-name="사각형 373" width="5.976" height="14.052" rx="2.988" transform="translate(559.724 1482.875) rotate(-16.582)" fill="#fd908c" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="패스_237" data-name="패스 237" d="M453.773,115.361H433.746a3.789,3.789,0,0,1-1.318-2.883,1.62,1.62,0,0,1,1.665-1.421h22.6a1.226,1.226,0,0,1,1.271,1.175v5.183a1.226,1.226,0,0,1-1.271,1.175H435.1a1.223,1.223,0,0,1-1.271-1.2l.032-1.492Z" transform="translate(136.336 1414.927)" fill="#fff" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+  </g>
+</svg>
