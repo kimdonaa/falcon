@@ -189,7 +189,7 @@
     width: 20px;
     height: 20px;
 
-    content: url(../images/index/main/bullet.png);
+    content: url(../../images/index/main/bullet.png);
     text-align: center;
 
     opacity: .25;
