@@ -766,15 +766,17 @@ body {
 }
 
 /*news*/
-.news_list{
+.news_list {
     width: 1320px;
     margin: 0 auto;
     height: 30px;
 }
-.news_list p{
+
+.news_list p {
     float: right;
-    background: linear-gradient(to top,#FEDCDC 50%, transparent 50%);
+    background: linear-gradient(to top, #FEDCDC 50%, transparent 50%);
 }
+
 .news {
     width: 1320px;
     height: 150px;
@@ -799,27 +801,28 @@ body {
 .news .mTitle span {
     font-size: 18px;
 }
-.notice{
-    width:100%; 
-    height:50px; 
-    overflow:hidden; 
-    background-color:#fff;
-    }
 
-	.rolling{
-        position:relative; 
-        width:100%; 
-        height:auto;
-    }
-	.rolling li{
-        font-size: 16px;
-        width:100%; 
-        height:50px; 
-        line-height:50px;
-    }
-    .rolling li a:hover{
-        color: #B83030;
-    }
+#slide_wrap {
+    /* width: 1320px; */
+    margin: 0 auto;
+    height: 90px;
+    position: relative;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    /* text-align: center; */
+    font-size: 15px;
+    background: #fff;
+    display: flex;
+    /* justify-content: center;
+    align-items: center;
+     */
+}
 /*footer*/
 /*footer*/
 .F_btn{
