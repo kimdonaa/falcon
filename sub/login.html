@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1460">
+    <title>Falcon</title>
+    <link rel="stylesheet" href="../css/login.css">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <script src="../js/jquery-3.6.4.min.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="top_wrap"><!--top_S-->
+        <div id="top">
+            <ul class="top_link">
+                <li><a href="login.html">로그인</a></li>
+                <li><a href="javascript:return false;">회원가입</a></li>
+                <li><a href="javascript:return false;">고객센터</a></li>
+                <li class="language"><a href="javascript:return false;">한국어<span></span></a></li>
+            </ul>
+        </div>
+    </div><!--top_E-->
+
+    <div id="header_wrap"><!--header_S-->
+        <div id="header">
+            <h1 class="logo">
+                <a href="../index.html">
+                    <img src="../images/header/main_logo.svg" alt="logo">
+                </a>
+            </h1>
+
+            <div id="gnb_wrap">
+                <ul class="gnb">
+                    <li><a href="sub1.html">About</a></li>
+                    <li><a href="sub2.html">Service Guide</a></li>
+                    <li><a href="sub3.html">Membership </a></li>
+                    <li><a href="sub4.html">Events</a></li>
+                </ul>
+            </div>
+            <p class="in"></p>
+        </div>
+    </div><!--header_E-->
+    <div id="container">
+        <div id="content">
+            <h2 class="title">
+               <a href="../index.html"><img src="../images/footer/footer_logo.svg" alt=""></a></h2>
+            <div class="login">
+                <div class="tabWide">
+                    <ul>
+                        <li class="on"><a href="javascript:return false;">회원</a></li>
+                        <li class=""><a href="javascript:return false;">비회원</a></li>
+                    </ul>
+                </div>
+                <div class="whiteBox">
+                    <div class="tabView" style="display: block;">
+                        <div class="inputArea">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="label"><label for="userId">아이디</label></div>
+                                    <div class="group">
+                                        <input type="email" placeholder="아이디 입력" id="userId">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="label"><label for="userPw">비밀번호</label></div>
+                                    <div class="group">
+                                        <input type="password" placeholder="비밀번호 입력" id="userPw">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <input type="checkbox" class="large" id="saveId">
+                                    <label for="saveId"><span></span>아이디 저장</label>
+                                </div>
+                            </div>
+                            <div class="row col1">
+                                <div class="col">
+                                    <div class="btns">
+                                        <a href="javascript:return false;" class="btn xlarge blue"
+                                            id="memberloginBtn">로그인</a>
+                                    </div>
+                                    <div class="btns">
+                                        <a href="https://safelogin.kr/sauth/regist?site_code=NR&amp;sub_code=0"
+                                            target="_blank"><img src="/images/login/phone_login.svg" alt="휴대폰로그인"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <ul class="loginMenu">
+                                        <li><a href="javascript:return false;" id="join"><strong>회원가입</strong></a></li>
+                                        <li><a href="javascript:return false;"
+                                                onclick="openIDSearch('idSearchPopup');">아이디 찾기</a></li>
+                                        <li><a href="javascript:return false;"
+                                                onclick="openPasswordSearch('passwordSearchPopup');">비밀번호 찾기</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tabView" style="display: none;">
+                        <div class="inputArea">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="label"><label for="userEmail">이메일</label></div>
+                                    <div class="group">
+                                        <input type="email" placeholder="이메일 입력" id="userEmail">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="label"><label for="reservationNum">예약번호</label></div>
+                                    <div class="group">
+                                        <input type="text" placeholder="예약번호" id="reservationNum">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="btns">
+                                        <a href="javascript:return false;" class="btn xlarge blue"
+                                            id="nonMemberResvSearchBtn">비회원 로그인</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer"><!--footer_S-->
+        <div class="inner">
+            <div class="logo"></div>
+            <div class="menu">
+                <ul>
+                    <li><a href="javascript:return false;">홈페이지이용약관</a></li>
+                    <li><a href="javascript:return false;">여객운송약관</a></li>
+                    <li><a href="javascript:return false;">항공교통이용자 서비스 계획</a></li>
+                    <li>
+                        <a href="javascript:return false;">피해구제계획</a>
+                    </li>
+                    <li><a href="javascript:return false;">개인정보처리방침</a></li>
+                    <li><a href="javascript:return false;">인재채용</a></li>
+                </ul>
+            </div>
+            <ul class="sns"><!--오/position-->
+                <li><a href="#"><img src="../images/footer/facebook_icon.png" alt="facebook_icon"></a></li>
+                <li><a href="#"><img src="../images/footer/instagram_icon.png" alt="instagram_icon"></a></li>
+                <li><a href="#"><img src="../images/footer/youtube_icon.png" alt="youtube_icon"></a></li>
+            </ul>
+            <ul class="cre_mark">
+                <li><a href="javascript:return false;"><img src="../images/footer/ico_ccm.png" alt="ico_ccm"></a></li>
+                <li><a href="javascript:return false;"><img src="../images/footer/ico_isms.png" alt="ico_isms"></a></li>
+            </ul>
+            <div class="info">
+                <span>팰컨항공 ㈜</span>
+                <span>대표이사 : 김두나&nbsp;</span>|
+                <span>사업자번호: 710-98-30089</span><br>
+                <span>주소 : 서울시 강서구 공항대로 453</span>
+                <span>453 TEL : 1800-6593&nbsp;(09:00 ~ 18:00 주말,공휴일 포함)</span>
+            </div>
+            <div class="copyright">Copyright 2009 BY Falcon CO. LTD. All Rights reserved <a
+                    href="javascript:return false;">web
+                    master</a> for more information.</div>
+
+</body>
+
+</html>
