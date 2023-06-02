@@ -413,28 +413,37 @@
     <div class="news"><!--news_S-->
       <div class="inner">
         <h2 class="mTitle">NEWS<span>공지사항</span></h2>
-        <div class="notice">
-        <ul class="rolling">
-          <li>
-            <a href="javascript:return false;">한국출발 국제선 유류할증료 (2023년 6월)</a>
-          </li>
-          <li>
-            <a href="javascript:return false;">호국보훈의 달 국가유공자 국내선 특별할인 시행</a>
-          </li>
-          <li>
-            <a href="javascript:return false;">기내와파이 서비스 시행 (2023년 6월)</a>
-          </li>
-          <li>
-            <a href="javascript:return false;">팰컨항공 사칭 악성메일 주위</a>
-          </li>
-          <li>
-            <a href="javascript:return false;">국내선 유류할증료</a>
-          </li>
-        </ul>
-      </div>
+      <div id="slide_wrap">
+        <!-- Swiper -->
+        <div class="swiper newsSwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">한국출발 국제선 유류할증료 (2023년 6월)</div>
+                <div class="swiper-slide">호국보훈의 달 국가유공자 국내선 특별할인 시행</div>
+                <div class="swiper-slide">기내와파이 서비스 시행 (2023년 6월)</div>
+                <div class="swiper-slide">팰컨항공 사칭 악성메일 주위</div>
+                <div class="swiper-slide">국내선 유류할증료</div>
+            </div>
+        </div>
+    </div>
       </div>
       
     </div><!--news_E-->
+          <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".newsSwiper", {
+      direction: "vertical",
+      slidesPerView: 0,
+      spaceBetween: 0,
+      autoplay: {     //자동슬라이드 (false-비활성화)
+            delay: 2500, // 시간 설정
+            disableOnInteraction: false, // false-스와이프 후 자동 재생
+          },
+  
+          loop : true,   // 슬라이드 반복 여부
+  
+          loopAdditionalSlides : 1,
+    });
+  </script>
   </div><!--main_E-->
   <button class="F_btn">
     <img src="images/footer/logo_white_cargo.png" alt="">
