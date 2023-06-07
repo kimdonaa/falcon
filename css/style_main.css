@@ -796,6 +796,7 @@ body {
     position: absolute;
     left: 50px;
     top: -60px;
+	cursor: pointer;
 }
 
 .news .mTitle span {
@@ -813,7 +814,12 @@ body {
     width: 100%;
     height: 100%;
 }
-
+.newsSwiper .swiper-wrapper .swiper-slide{
+    cursor: pointer;
+}
+.newsSwiper .swiper-wrapper .swiper-slide:hover{
+    color: #B83030;
+}
 .swiper-slide {
     /* text-align: center; */
     font-size: 15px;
