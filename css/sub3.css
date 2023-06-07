@@ -152,6 +152,9 @@ body {
     padding: 40px 0 15px;
 }
 /*section1*/
+.section1_wrap{
+    overflow: hidden;
+}
 .section1{
     width: 1320px;
     margin: 100px auto;
